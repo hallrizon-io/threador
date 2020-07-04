@@ -50,7 +50,6 @@
 <p>Using parallel computing in code.</p>
 <p>Result will be order by position in tasks.</p>
 <pre>
-
 >from threador.contrib import Executor
 >
 >parallel = Executor(tasks=(
