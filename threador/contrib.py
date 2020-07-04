@@ -1,4 +1,4 @@
-from config import call_task
+from threador_config import call_task
 import datetime
 
 
