@@ -16,7 +16,7 @@ setup(
     author='Kostya Minkov',  # Type in your name
     author_email='hallrizon.io@gmail.com',  # Type in your E-Mail
     url='https://github.com/hallrizon-io/threador',  # Provide either the link to your github or to your website
-    download_url='https://github.com/hallrizon-io/threador/archive/0.1.tar.gz',  # I explain this later on
+    download_url='https://github.com/hallrizon-io/threador/archive/0.1.4.tar.gz',  # I explain this later on
     keywords=['Celery worker', 'Parallel celery'],  # Keywords that define your package best
 
     install_requires=[  # I get to this in a second
