@@ -16,7 +16,9 @@
 import time
 from celery import Celery
 from threador.tasks import Task
+
 app = Celery('threador_celery', backend='rpc://', broker='pyamqp://guest@localhost//')
+
 // Your task for parallel execution
 class SleepTask(Task):
     def fnc(self, *args, **kwargs):
