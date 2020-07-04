@@ -9,9 +9,8 @@ setup(
     version='0.1.4',  # Start with a small number and increase it with every change you make
     license='MIT',  # Chose a license from here: https://help.github.com/articles/licensing-a-repository
     description='Parallel computing with celery and RabitMQ',  # Give a short description about your library
-
+    long_description_content_type='text/markdown',
     long_description=long_description,
-    long_description_content_type="text/markdown",
 
     author='Kostya Minkov',  # Type in your name
     author_email='hallrizon.io@gmail.com',  # Type in your E-Mail
