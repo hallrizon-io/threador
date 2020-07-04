@@ -7,7 +7,7 @@
 
 <h2>Step 1</h2>
 <p>Init docker container with RabbitMQ</p>
-<p>docker run -it --rm --name rabbitmq -p 5672:5672 -p 15672:15672 rabbitmq:3-management</p>
+<pre>docker run -it --rm --name rabbitmq -p 5672:5672 -p 15672:15672 rabbitmq:3-management</pre>
 
 <h2>Step 2</h2>
 <p>Create fite `threador_config.py` in your root place at the project.</p>
