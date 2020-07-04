@@ -27,6 +27,7 @@ class SleepTask(Task):
 tasks = {
     'sleep': SleepTask(),
 }
+\n
 // Required function for call your task parallel
 @app.task
 def call_task(fnc_name: str, *args, **kwargs):
