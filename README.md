@@ -1,3 +1,4 @@
+<html>
 <h1>Parallel computing using Celery - <b>threador</b></h1>
 
 <h2> Install library:</h2>
@@ -48,7 +49,7 @@
 <h2>Step 4</h2>
 <p>Using parallel computing in code.</p>
 <p>Result will be order by position in tasks.</p>
-
+<pre>
 
 >from threador.contrib import Executor
 >
@@ -60,3 +61,5 @@
 >
 >result = parallel.run()
 >print(result)
+</pre>
+</html>
