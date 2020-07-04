@@ -23,6 +23,7 @@ class SleepTask(Task):
         _r = kwargs.get('timeout', 0)
         time.sleep(_r)
         return _r
+
 // Register all your task here
 tasks = {
     'sleep': SleepTask(),
