@@ -48,13 +48,11 @@ def call_task(fnc_name: str, *args, **kwargs):
 <p>Result will be order by position in tasks.</p>
 <pre>
 from threador.contrib import Executor
-
 parallel = Executor(tasks=(
     ['sleep', None, {'timeout': 3}],
     ['sleep', None, {'timeout': 2}],
     ['sleep', None, {'timeout': 4}],
 ))
-
 result = parallel.run()
 print(result)
 </pre>
