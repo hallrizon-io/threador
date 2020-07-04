@@ -11,20 +11,18 @@
 
 <h2>Step 2</h2>
 <p>Create fite `threador_config.py` in your root place at the project.</p>
+
 <pre>
 import time
 from celery import Celery
 from threador.tasks import Task
-#
 app = Celery('threador_celery', backend='rpc://', broker='pyamqp://guest@localhost//')
-#
 // Your task for parallel execution
 class SleepTask(Task):
     def fnc(self, *args, **kwargs):
         _r = kwargs.get('timeout', 0)
         time.sleep(_r)
         return _r
-#
 // Register all your task here
 tasks = {
     'sleep': SleepTask(),
